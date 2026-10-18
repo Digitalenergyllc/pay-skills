@@ -26,7 +26,7 @@ Send standard Solana JSON-RPC as POST requests to https://agents.digital-energy.
 
 Served by Digital Energy's own validator-operated RPC node, not resold from another provider.
 
-Not available through this endpoint (returns -32601): getProgramAccounts, getSupply, getLargestAccounts, getTokenLargestAccounts, batches of 16 or more calls, and request bodies over 30 KB. HTTP only; WebSocket subscriptions are not supported. Transaction history covers about the last eight hours.
+Not available through this endpoint (returns -32601): getProgramAccounts, getSupply, getLargestAccounts, getTokenLargestAccounts, batches of 16 or more calls, and request bodies over 30 KB. HTTP only; WebSocket subscriptions are not supported. Transaction history covers recent blocks only; there is no archive.
 
 ## Spend-Aware Usage
 
