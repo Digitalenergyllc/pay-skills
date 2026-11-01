@@ -22,7 +22,7 @@ version: v1
 
 ## Usage Notes
 
-Send standard Solana JSON-RPC as POST requests to https://agents.digital-energy.io/. Each HTTP request costs 0.005 USDC, paid on Solana mainnet. A JSON-RPC batch of up to 15 calls is one HTTP request and one payment.
+Send standard Solana JSON-RPC as POST requests to https://agents.digital-energy.io/. Each HTTP request costs 0.005 USDC, paid on Solana mainnet. Payment is accepted over x402 (v2, exact) or MPP; an unpaid request returns HTTP 402 offering both. A JSON-RPC batch of up to 15 calls is one HTTP request and one payment.
 
 Served by Digital Energy's own validator-operated RPC node, not resold from another provider.
 
